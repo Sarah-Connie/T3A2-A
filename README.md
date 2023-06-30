@@ -7,14 +7,14 @@ Sarah Landis & Connie Jacques
 # Documentation
 
 ## 1. About
-#### Purpose
+### Purpose
 Each year, approximately 30,000 people are reported missing in Australia - that's one person every 18 minutes[^1]. Unfortunately, not all of these cases are exposed to the public in timely manner, if at all. The more people who are aware of a recently missing person, the greater the likelihood is of finding them. 
 
 The purpose of this website is to provide a platform for both members of the general public and law enforcement to post and share information about missing persons in NSW. Allowing members of the public to engage with reports and share details via social media about missing persons will increase the chances of locating the missing individuals by engaging a wider network of individuals and therefore decreasing the amount of time it takes to distribute key information.
 
 Using this site will hopefully assist in reuniting families, bringing closure to loved ones, and raising awareness about cases in NSW. Every effort in the search counts and matters, and as a community using this site, we can do our part to help.
 
-#### Functionality
+### Functionality
 Users will be able to login using their email and password and access their Hope Hunters account. From their account, a user has the ability to then create a new missing persons "file", update/delete any files they've created, or update/delete their account.
 
 Law enforcement and admin will also be able to login with their credentials and 
@@ -37,10 +37,11 @@ or search results by model fields:
 - Last seen (postcode)
 <!-- - ?Race  -->
 
-#### Features
+### Features
+
 <i>Features required to achieve the above functionality include:</i>
 
-<b>Front End</b>
+##### Front End
 - Sign up form: 
 The sign up form will have functionality to allow the user to identify as a law enforcement official. If the user selects this option, the form will change to accomodate sign up for police as different details are required. ** On sign up, user will receive an email containing a link to confirm their email and complete their sign up. Once signed up redirect to sign in.
 >
@@ -56,7 +57,7 @@ This form will be the same regardless of account type. The form will have fields
 - Update/delete missing person form: 
 The purpose of this form is to perform the required crud tasks. The form will take input and first search for missing person, then update. There will be a button to delete the file entirely.
 
-<b>Back End</b>
+##### Back End
 - User sign up with email verification:
 Required validation to ensure email is an email prior to entering the database.
 >
@@ -65,27 +66,29 @@ Required protection of user passwords to safegaurd against malicious theft of da
 >
 - JWT authentication:
 Required authentication to ensure relevant account has access to specific data
----
+>
+
+<br>
 <i>Desired features to enhance overall functionality of the site and increase quality of UX:</i>
 
-<b>Front End</b>
+##### Front End
 - Directly share listings to social media outlets via a 'Share' button with channel options
 - Missing persons listings displayed in Facebook newsfeed style (continuous page with hidden scrollbar)
 - Amber alert responsive infinite scrolling banner
 - Support page with crime stoppers info, grief support, mental health resources, etc.
 
-<b>Back End</b>
+##### Back End
 - Retrieve 30 listings at a time from the database for the continuous page. Only once they’ve been viewed, get the new 30, etc.
 - Store persons images directly to database
 
-#### Target Audience
+### Target Audience
 The target audience for this site as briefly explained above, is the general public. With police busy with major crimes across different sectors and far too many annual missing person cases being filed, this site aims to enlist the assistance and knowledge from the general public.
 
 In today's interconnected digital world, there lies strength in numbers. The power and gravity of collective action is important to understand in this context. With social media acting as a catalyst, the swift dissemination of information is made much easier and is hopefully able to play a crucial role in assisting someone's safe return home. Additionally, having direct access to sharing a 'file' onto social media may be a lifesaver, as you may not know the person but an old friend of yours is now friends with that person's parent - you never know how many connections away you are from either the missing person directly or atleast someone who may have information. 
 
 Our goal is to minimize the delay in information reaching the public as well as help law enforcement pool together every possible avenue of potential connection to better help locate a missing person.
 
-#### Tech Stack
+### Tech Stack
 
 ## 2. Dataflow Diagram
 

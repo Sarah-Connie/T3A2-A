@@ -28,27 +28,25 @@ The goal of the Hope Hunters website means that any member of the public will be
 
 ###### <i>Features required to achieve the above functionality, which comprises the minimum viable product, include:</i>
 
-- <b>Sign up form</b>: The sign up form will have functionality to allow the user to identify as law enforcement. If the user selects this option, the form will change to accommodate sign up for police as different details are required. On sign up, the user will receive an email containing a link to verify their email address and complete their sign up. Once signed up the user will be redirected to sign in.
+- <i>Sign up form</i>: The sign up form will have functionality to allow the user to identify as law enforcement. If the user selects this option, the form will change to accommodate sign up for police as different details are required. On sign up, the user will receive an email containing a link to verify their email address and complete their sign up. Once signed up the user will be redirected to sign in.
 >
-- <b>Sign in form</b>: This form will request the same email address and password used to sign up.
+- <i>Sign in form</i>: This form will request the same email address and password used to sign up.
 >
-- <b>User's dashboard</b>: logged in users will have access to a personalised dashboard which will display the four most recent missing persons listings associated with their account and a search bar, as well as provide access a form to update or delete their account.
+- <i>User's dashboard</i>: logged in users will have access to a personalised dashboard which will display the four most recent missing persons listings associated with their account and a search bar, as well as provide access a form to update or delete their account.
 >
-- <b>Update/delete account form</b>: This form will allow a user to update the details on record for their account. The form will include a button to delete the account. If updating, any fields left blank will remain as whatever is stored in the database (i.e. only filled fields will be updated). 
+- <i>Update/delete account form</i>: This form will allow a user to update the details on record for their account. The form will include a button to delete the account. If updating, any fields left blank will remain as whatever is stored in the database (i.e. only filled fields will be updated). 
 >
-- <b>Add missing person form</b>: This form will be the same regardless of account type. The form fields will be based off the ERD attached below.
+- <i>Add missing person form</i>: This form will be the same regardless of account type. The form fields will be based off the ERD attached below.
 >
-- <b>Update/delete missing person form</b>: This form will enable authorised users to update or delete a missing persons listing. The user will be required to locate the appropriate listing either their dashboard or via the homepage. Once they have located the listing, if they are authorised to modify the listings, they will be redirected to the form. The form will be same form used to add a missing person but on saving will be update only the modified fields in the database. There will be a button to delete the listing entirely.
+- <i>Update/delete missing person form</i>: This form will enable authorised users to update or delete a missing persons listing. The user will be required to locate the appropriate listing either their dashboard or via the homepage. Once they have located the listing, if they are authorised to modify the listings, they will be redirected to the form. The form will be same form used to add a missing person but on saving will be update only the modified fields in the database. There will be a button to delete the listing entirely.
 >
-- <b>Password encryption:</b> user's passwords will be hashed and salted in the front end before the data is attached in a request to the server. This will help to minimise the risk of a successful malicious attack in obtaining useful data.
+- <i>Password encryption:</i> user's passwords will be hashed and salted in the front end before the data is attached in a request to the server. This will help to minimise the risk of a successful malicious attack in obtaining useful data.
 >
-- <b>Mongoose schemas to format models for collections in the database:</b> Data validation will be partly handled through the schemas to ensure consistency. Additional validation will be performed with the express-validator library. For example, express-validator will be used to ensure that a police user's email address will be required to contain the @police.gov.nsw.au postfix.
+- <i>Mongoose schemas to format models for collections in the database:</i> Data validation will be partly handled through the schemas to ensure consistency. Additional validation will be performed with the express-validator library. For example, express-validator will be used to ensure that a police user's email address will be required to contain the @police.gov.nsw.au postfix.
 >
-- <b>JWT authentication:</b> User documents in the database will be assigned a json web token with a seven day expiry on sign up. Their JWT will enable easy user authentication and will enable a user to remain logged in if they have used their account within the previous seven days, providing a nicer user experience.
+- <i>JWT authentication:</i> User documents in the database will be assigned a json web token with a seven day expiry on sign up. Their JWT will enable easy user authentication and will enable a user to remain logged in if they have used their account within the previous seven days, providing a nicer user experience.
 >
-- <b>Share a missing person listing to Facebook and by email:</b> All missing person's listings will contain the option to share directly Facebook or by email. User's will not be required to sign up to have access to this functionality.
-
-<br>
+- <i>Share a missing person listing to Facebook and by email:</i> All missing person's listings will contain the option to share directly Facebook or by email. User's will not be required to sign up to have access to this functionality.
 
 ###### <i>Nice to have features to enhance overall functionality of the site and increase quality of UX:</i>
 
@@ -67,10 +65,10 @@ In today's interconnected digital world there lies strength in numbers. The powe
 Our goal is to minimize the delay in information reaching the public, as well as in assisting law enforcement to pool together every possible avenue of a potential connection to better help locate a missing person.
 
 ##### Tech Stack
-<b>Primary Programming Language:</b> 
+<i>Primary Programming Language:</i> 
 JavaScript
 
-<b>Front End:</b> 
+<i>Front End:</i> 
 
 - React
 - HTML 
@@ -80,31 +78,31 @@ JavaScript
 
 
 
-<b>Back End:</b>
+<i>Back End:</i>
 
 - Server: Node
 - Web Server Framework: Express
 - ODM: Mongoose
 - Deployed to: AWS EC2 Instance or Heroku 
 
-<b>Database:</b>
+<i>Database:</i>
 MongoDB
 
 - Deployed to: MongoDB Atlas
 
-<b>Version Control:</b> 
+<i>Version Control:</i> 
 Git
 
 - Repository host: GitHub Organisation
 
-<b>Text Editor:</b> VS Code
+<i>Text Editor:</i> VS Code
 
-<b>Testing Frameworks:</b>
+<i>Testing Frameworks:</i>
 
 - Back end: Jest and Supertest
 - Front End: React Testing Library
 
-<b>Additional Dependencies:</b>
+<i>Additional Dependencies:</i>
 
 - Front end:
     - tailwindcss
@@ -149,15 +147,15 @@ In addition to use of the trello board our team will be hosting daily check-ins 
 
 Our trello board can be found here: https://trello.com/b/7NMGHoN7/full-stack-app
 
-<i><b>Trello Board Description</b></i>
+<i>Trello Board Description</i>
 
 ![Trello board description](./docs/trello/trello-description.png)
 <br>
-<i><b>Trello Board Progress Screenshots</b></i>
+<i>Trello Board Progress Screenshots</i>
 
 ![Trello board progress 30/06/2023](./docs/trello/trello-screenshot1.png)
 <br>
-<i><b>Trello Board Card Examples</b></i>
+<i>Trello Board Card Examples</i>
 
 ![Trello board card example format readme.md](./docs/trello/trello-card-example1.png)
 ![Trello board card example AAD](./docs/trello/trello-card-example2.png)

@@ -102,6 +102,10 @@ Git
 - Back end: Jest and Supertest
 - Front End: React Testing Library
 
+## 3. Application Architecture Diagram
+
+![App Architecture Diagram](./docs/AAD.png)
+
 <i>Additional Dependencies:</i>
 
 - Front end:
@@ -129,6 +133,7 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 ![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
 
 #### 3. Application Architecture Diagram
+
 ---
 ##### Design & Project Flow
 

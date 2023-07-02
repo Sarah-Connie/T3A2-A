@@ -93,6 +93,9 @@ Our goal is to minimize the delay in information reaching the public as well as 
 ## 2. Dataflow Diagram
 
 ## 3. Application Architecture Diagram
+
+![App Architecture Diagram](./docs/AAD.png)
+
 ---
 # Design & Project Flow
 

@@ -124,13 +124,14 @@ Git
     - nodemailer
     - nodemailer-sendgrid-transport
 
+An ERD is attached for the purpose of visualising the database schema/models that will be implemented.
+
+![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
 
 #### 2. Dataflow Diagram
 
 
-An ERD is attached for the purpose of visualising the database schema/models that will be implemented.
 
-![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
 
 #### 3. Application Architecture Diagram
 
@@ -159,6 +160,7 @@ Our trello board can be found here: https://trello.com/b/7NMGHoN7/full-stack-app
 <i>Trello Board Progress Screenshots</i>
 
 ![Trello board progress 30/06/2023](./docs/trello/trello-screenshot1.png)
+![Trello board progress 03/07/2023](./docs/trello/trello-screenshot2.png)
 <br>
 <i>Trello Board Card Examples</i>
 

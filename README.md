@@ -143,7 +143,7 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 ##### Figma Wireframes
 In developing this site, careful consideration was given to the types of users this application would cater to as well as what was prioritized as a minimum viable product feature in the preliminary planning stages. Additionally, these wireframes were created in effort to plan for the usage of the site site across different electronic devices, keeping mobile-first viewing in mind.
 
-Figma, an standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](). 
+Figma, an standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](https://www.figma.com/file/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=162-2072&mode=design&t=RsEU8JRCJn1tqZyX-0). 
 
 Homepage:
 ![homepage wireframes](./docs/homepage-all.png)
@@ -159,7 +159,7 @@ Dashboard:
 ![dashboard wireframes](./docs/dashboard-desktop.png)
 ![dashboard wireframes](./docs/dashboard-all.png)
 
-Prototypes are also useful in the planning stages of a website as they allow the developer to visualize the flow of actions a user may take when interacting with rendered elements. To view the interactive version of these prototypes, they are accesible [here]().
+Prototypes are also useful in the planning stages of a website as they allow the developer to visualize the flow of actions a user may take when interacting with rendered elements. To view the interactive version of these prototypes, click here for the [desktop version](https://www.figma.com/proto/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=30-1357&t=RsEU8JRCJn1tqZyX-0&scaling=scale-down&page-id=19%3A818&starting-point-node-id=30%3A1357&show-proto-sidebar=1) and here for the [mobile version](https://www.figma.com/proto/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=45-1568&t=RsEU8JRCJn1tqZyX-0&scaling=scale-down&page-id=45%3A1567&starting-point-node-id=45%3A1568).
 
 Visual representation of prototypes for both desktop and mobile below -
 Mobile representation:

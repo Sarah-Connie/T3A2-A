@@ -102,10 +102,6 @@ Git
 - Back end: Jest and Supertest
 - Front End: React Testing Library
 
-## 3. Application Architecture Diagram
-
-![App Architecture Diagram](./docs/AAD.png)
-
 <i>Additional Dependencies:</i>
 
 - Front end:
@@ -124,9 +120,6 @@ Git
     - nodemailer
     - nodemailer-sendgrid-transport
 
-An ERD is attached for the purpose of visualising the database schema/models that will be implemented.
-
-![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
 
 #### 2. Dataflow Diagram
 
@@ -144,6 +137,12 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 ![Get Missing Persons](./docs/data-flow-diagrams/get-missing-person-dfd.png)
 
 #### 3. Application Architecture Diagram
+
+![App Architecture Diagram](./docs/AAD.png)
+
+An ERD is attached for the purpose of visualising the database schema/models that will be implemented.
+
+![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
 
 ---
 ##### Design & Project Flow

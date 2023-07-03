@@ -140,6 +140,45 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 #### 4. User Stories
 
 #### 5. Design Processes & Wireframing
+##### Figma Wireframes
+In developing this site, careful consideration was given to the types of users this application would cater to as well as what was prioritized as a minimum viable product feature in the preliminary planning stages. Additionally, these wireframes were created in effort to plan for the usage of the site site across different electronic devices, keeping mobile-first viewing in mind.
+
+Figma, an standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](). 
+
+Homepage:
+![homepage wireframes](./docs/homepage-all.png)
+
+Login page:
+![login page wireframes](./docs/login-page.png)
+
+Hamburger Menu for mobile nav only:
+![login page wireframes](./docs/hamburger-mobile.png)
+
+Dashboard:
+![dashboard wireframes](./docs/dashboard-mobile.png)
+![dashboard wireframes](./docs/dashboard-desktop.png)
+![dashboard wireframes](./docs/dashboard-all.png)
+
+Prototypes are also useful in the planning stages of a website as they allow the developer to visualize the flow of actions a user may take when interacting with rendered elements. To view the interactive version of these prototypes, they are accesible [here]().
+
+Visual representation of prototypes for both desktop and mobile below -
+Mobile representation:
+![mobile prototype](./docs/mobile-prototype.png)
+
+Desktop representation:
+![desktop prototype](./docs/desktop-prototype.png)
+
+Mobile:
+![mobile home prototype](./docs/mobile-home-proto.png)
+![mobile hamburger menu prototype](./docs/mobile-ham-proto.png)
+![mobile login prototype](./docs/mobile-login-proto.png)
+![mobile signup prototype](./docs/mobile-signup-proto.png)
+![mobile dashboard prototype](./docs/mobile-dash-proto.png)
+
+Desktop:
+![desktop home prototype](./docs/desktop-home-proto.png)
+![desktop login prototype](./docs/desktop-login-proto.png)
+![desktop dashboard prototype](./docs/desktop-dash-proto.png)
 
 #### 6. Project Management
 The kanban project management style will be followed to structure the implementation of each step in undertaking this project. This style has been chosen because it will enable our team to visualise what tasks need to be undertaken, what is underway, what individual team members need to review, and what has been completed. Being able to see what has been done can help to foster a sense of accomplishment and provide motivation to keep going. And. by dividing tasks up into very small snippets that can be completed in a few hours, the list of remaining tasks does not seem so daunting and thus can allow team members to remain motivated and inspired. 

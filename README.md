@@ -1,19 +1,17 @@
 # T3A2-A - Full Stack App (Part A)
-
 ## Sarah Landis & Connie Jacques Present Hope Hunters: A Missing Persons Aggregate Site
-
 ---
-### Documentation
+## Documentation
 
-#### 1. About
-##### Purpose
+### 1. About
+#### Purpose
 Each year, approximately 40,000 people are reported missing in Australia - that's one person every 18 minutes[^1]. Unfortunately, not all of these cases are exposed to the public in a timely manner, if at all. The more people who are aware of a recently missing person, the greater the likelihood is of finding them. 
 
 The purpose of this website is to provide a platform for both members of the general public and law enforcement to post and share information about missing persons in New South Wales. Allowing members of the public to engage with reports and share details via social media about missing persons will increase the chances of locating the missing persons by engaging a wider network of individuals and organisations, therefore decreasing the amount of time it takes to distribute key information.
 
 The use of this website will hopefully assist in reuniting families, bringing closure to loved ones, and raising awareness about missing persons cases in NSW. Every effort in the search counts and matters, and as a community using this site, we can all do our part to help.
 
-##### Functionality
+#### Functionality
 Users are divided into two groups: members of the general public and Police, where a Police account will belong to a local police station rather than an individual officer. To sign up for an account, general users will be required to provide their full name, a valid, unique email address and a password. Police users will need to provide the station name, police area command, police district, email address (must contain @police.nsw.gov.au) and a password. Users will then be sent a verification link to the email address they provided and will be unable to sign in until they clicked the link to verify their email address. This will also prevent bots from creating user accounts.
 
 Once they have sign up, users will be able to log in with their email and password. A JSON web token which is valid for seven days will be added to their document in the database when they click on the verification link sent to their email address. On each log in the expiry date for this token will be updated, meaning that if the user is active again within seven days they will not need to log in again. 
@@ -24,9 +22,9 @@ Logged in users will be able to add missing persons listings. A listings must co
 
 The goal of the Hope Hunters website means that any member of the public will be able to view all missing persons listings. These listings will be displayed on the homepage and will be in the style of a Facebook newsfeed style continuous list with a hidden scrollbar. Listings on the homepage will be displayed in chronological order with the newest listings first, and a drop down menu will be available to optionally sort the listings by name (A - Z), location (A - Z), age (ascending or descending) or date (oldest first). A search bar will able be available to to search by location, name, police district, police area command, amber alert status, age, gender, complexion, area suspected to be and last seen (postcode).
 
-##### Features
+#### Features
 
-###### <i>Features required to achieve the above functionality, which comprises the minimum viable product, include:</i>
+##### <i>Features required to achieve the above functionality, which comprises the minimum viable product, include:</i>
 
 - <i>Sign up form</i>: The sign up form will have functionality to allow the user to identify as law enforcement. If the user selects this option, the form will change to accommodate sign up for police as different details are required. On sign up, the user will receive an email containing a link to verify their email address and complete their sign up. Once signed up the user will be redirected to sign in.
 >
@@ -48,7 +46,7 @@ The goal of the Hope Hunters website means that any member of the public will be
 >
 - <i>Share a missing person listing to Facebook and by email:</i> All missing person's listings will contain the option to share directly Facebook or by email. User's will not be required to sign up to have access to this functionality.
 
-###### <i>Nice to have features to enhance overall functionality of the site and increase quality of UX:</i>
+##### <i>Nice to have features to enhance overall functionality of the site and increase quality of UX:</i>
 
 - Directly share listings to additional social media outlets such as Twitter.
 - Amber alert banner at the top of the home page with responsive infinite horizontal scrolling.
@@ -57,14 +55,14 @@ The goal of the Hope Hunters website means that any member of the public will be
 - Retrieve 30 listings at a time from the database for the continuous page. Only once they’ve been viewed, get the new 30, etc.
 - Store missing persons images directly to database instead of a url to an image hosted on, for example, Photobucket. 
 
-##### Target Audience
+#### Target Audience
 The target audience for this site, as briefly explained above, is the general public. With police busy with major crimes across different sectors and far too many annual missing person cases being filed, this site aims to enlist the assistance and knowledge of the general public.
 
 In today's interconnected digital world there lies strength in numbers. The power and gravity of collective action is important to understand in this context. With social media acting as a catalyst, the swift dissemination of information is made much easier, and is hopefully able to play a crucial role in assisting someone's safe return home. Additionally, having direct access to share a listing to social media may be a lifesaver. You may not know the missing person, but social media contacts of yours may know them or have seen them. You never know how many connections away you are from a missing person, or whether someone you know has important information about them.
 
 Our goal is to minimize the delay in information reaching the public, as well as in assisting law enforcement to pool together every possible avenue of a potential connection to better help locate a missing person.
 
-##### Tech Stack
+#### Tech Stack
 <i>Primary Programming Language:</i> 
 JavaScript
 
@@ -121,7 +119,7 @@ Git
     - nodemailer-sendgrid-transport
 
 
-#### 2. Dataflow Diagram
+### 2. Dataflow Diagrams
 
 ![General User Sign Up](./docs/data-flow-diagrams/general-user-sign-up-dfd.png)
 ![Police User Sign Up](./docs/data-flow-diagrams/police-user-sign-up-dfd.png)
@@ -136,7 +134,7 @@ Git
 ![Delete Missing Person](./docs/data-flow-diagrams/delete-missing-person-dfd.png)
 ![Get Missing Persons](./docs/data-flow-diagrams/get-missing-person-dfd.png)
 
-#### 3. Application Architecture Diagram
+### 3. Application Architecture Diagram
 
 ![App Architecture Diagram](./docs/AAD.png)
 
@@ -145,18 +143,18 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 ![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
 
 ---
-##### Design & Project Flow
+## Design & Project Flow
 
-#### 4. User Stories
+### 4. User Stories
 ![Betty persona](./docs/betty-persona.png)
 
 ![Peter persona](./docs/peter-persona.png)
 
 
 
-#### 5. Design Processes & Wireframing
+### 5. Design Processes & Wireframing
 
-#### 6. Project Management
+### 6. Project Management
 The kanban project management style will be followed to structure the implementation of each step in undertaking this project. This style has been chosen because it will enable our team to visualise what tasks need to be undertaken, what is underway, what individual team members need to review, and what has been completed. Being able to see what has been done can help to foster a sense of accomplishment and provide motivation to keep going. And. by dividing tasks up into very small snippets that can be completed in a few hours, the list of remaining tasks does not seem so daunting and thus can allow team members to remain motivated and inspired. 
 
 Our team has created a trello board to enable us to visualise this information. Our board is divided into seven columns: Part A To Do, Part B To Do, Connie In Progress, Sarah In Progress, Under Review, Completed, and Nice to Have. This structure was chosen to best facilitate visualisation of who is doing what currently and to aid in the prioritisation of tasks. Each card on the board contains a title, may include the name to the team member/s who have chosen to undertake the task, a colour indicated the estimated time it will take to complete the card (the key for this colour system can be found in the board's description) and a detailed description of what needs to be done. As tasks are undertaken and completed the are moved to the next appropriate column.

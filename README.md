@@ -102,10 +102,6 @@ Git
 - Back end: Jest and Supertest
 - Front End: React Testing Library
 
-## 3. Application Architecture Diagram
-
-![App Architecture Diagram](./docs/AAD.png)
-
 <i>Additional Dependencies:</i>
 
 - Front end:
@@ -127,12 +123,26 @@ Git
 
 #### 2. Dataflow Diagram
 
+![General User Sign Up](./docs/data-flow-diagrams/general-user-sign-up-dfd.png)
+![Police User Sign Up](./docs/data-flow-diagrams/police-user-sign-up-dfd.png)
+![General User Sign In](./docs/data-flow-diagrams/general-user-sign-in-dfd.png)
+![Police User Sign In](./docs/data-flow-diagrams/police-user-sign-in-dfd.png)
+![Update General User Details](./docs/data-flow-diagrams/update-general-user-dfd.png)
+![Update Police User Details](./docs/data-flow-diagrams/update-police-user-dfd.png)
+![Delete General User Account](./docs//data-flow-diagrams/delete-general-user-dfd.png)
+![Delete Police User Account](./docs/data-flow-diagrams/delete-police-user-dfd.png)
+![Add New Missing Person](./docs/data-flow-diagrams/new-missing-person-dfd.png)
+![Update Missing Person](./docs/data-flow-diagrams/update-missing-person-dfd.png)
+![Delete Missing Person](./docs/data-flow-diagrams/delete-missing-person-dfd.png)
+![Get Missing Persons](./docs/data-flow-diagrams/get-missing-person-dfd.png)
+
+#### 3. Application Architecture Diagram
+
+![App Architecture Diagram](./docs/AAD.png)
 
 An ERD is attached for the purpose of visualising the database schema/models that will be implemented.
 
 ![Hope Hunters MongoDB ERD for visualisation purposes](./docs//hope-hunters-erd.png)
-
-#### 3. Application Architecture Diagram
 
 ---
 ##### Design & Project Flow
@@ -164,6 +174,7 @@ Our trello board can be found here: https://trello.com/b/7NMGHoN7/full-stack-app
 <i>Trello Board Progress Screenshots</i>
 
 ![Trello board progress 30/06/2023](./docs/trello/trello-screenshot1.png)
+![Trello board progress 03/07/2023](./docs/trello/trello-screenshot2.png)
 <br>
 <i>Trello Board Card Examples</i>
 

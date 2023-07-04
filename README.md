@@ -141,9 +141,9 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 
 #### 5. Design Processes & Wireframing
 ##### Figma Wireframes
-In developing this site, careful consideration was given to the types of users this application would cater to as well as what was prioritized as a minimum viable product feature in the preliminary planning stages. Additionally, these wireframes were created in effort to plan for the usage of the site site across different electronic devices, keeping mobile-first viewing in mind.
+In designing this site, careful consideration was given to the various user types the application would cater to as well as determining the best way to incorporate the minimum viable product (MVP) features that would contribute to core functionality. These wireframes were created in effort to plan for the overall layout and user flow of the site across different electronic devices keeping mobile-first viewing and design in mind.
 
-Figma, an standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](https://www.figma.com/file/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=162-2072&mode=design&t=RsEU8JRCJn1tqZyX-0). 
+Figma, an industry standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](https://www.figma.com/file/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=162-2072&mode=design&t=RsEU8JRCJn1tqZyX-0). 
 
 Homepage:
 ![homepage wireframes](./docs/homepage-all.png)
@@ -180,6 +180,51 @@ Desktop:
 ![desktop login prototype](./docs/desktop-login-proto.png)
 ![desktop dashboard prototype](./docs/desktop-dash-proto.png)
 
+##### Other Design Processes
+Fontface:
+
+Based on the determined users - police, general public of all ages, admin - choosing an appropriate fontface and overall style for enhanced readability was a priority. The information we are hosting on this site is important and urgent in nature, so delivering it in a direct and clear manner is paramount.
+
+"[Official] websites need clear and consistent headings, highly legible body paragraphs, clear labels, and easy-to-use input fields."[^5] 
+
+Public Sans: The chosen body font. Headers will be emphasized using appropriate font weight.
+
+![publicsans](./docs/public-sans.png)[^7]
+
+Public Sans is a font used widely by the U.S. Government across their official sites and was actually designed by the United States Web Design System - it is well known for its "plain, straightforward style, [and is] appropriate for interfaces and running text. Its large x-height makes it legible at small sizes."[^5] The smaller font sizes have greater letter spacing which makes it highly suitable for running and body text as the letters are further apart, thus making it easier to read at small sizes.[^5] 
+
+This typeface "is meant to be neutral, legible, and consistent like a system font"[^6] and the "conventional angled vertices result in a sharper, stronger form."[^7]
+
+![font overlay](./docs/font-comparison.png)[^7]
+
+With Roboto being too tall and stiff and SF Pro Text having too much character spacing, Public Sans is the perfect combination which achieves excellent readability and maintains a neutral form.
+
+Color Scheme:
+
+When choosing colors for a website or application, it's important to determine your target audience and overall message you want to convey. Since this site is related to important and often urgent information, the goal was to evoke a sense of professionalism, officiality, and trustworthiness, a sense of hope for those searching, as well as a sense of urgency and priority for certain info.
+
+Based on extensive research about color theory, the chosen colors for the site are below:
+
+![color swatches](./docs/color-swatches.png)[^2]
+
+with an example site using these colors:
+
+![mocksite with colors](./docs/site-colors.png)[^2]
+
+We chose a triadic design with an added complementary color. "Triadic [designs] take three colors which are equally distant on the color wheel (i.e., 120° apart: e.g., red/blue/yellow). These colors may not be vibrant, but the scheme can be as it maintains harmony and high contrast. It’s easier to make visually appealing designs with this than with a complementary scheme."[^3] 
+
+![triadic colors](./docs/triadic-colors.png)[^2]
+
+With the content of our site relating to sensitive information, it was important to appropriately reflect our design goals whilst also evoking a "positive psychological impact on users"[^3].
+
+We chose shades of blue as our primary color, as the main design goal of the site was to bring about a sense of professionalism, officiality, and trustworthiness. "Blue is a favorite color for companies that wish to convey reliability, trustworthiness, and communication (think Facebook, Twitter, and Samsung) and for expressing the authority of organizations like the police."[^4] Considering that the police are part of the intended users, it made sense to choose this as the primary color. Keeping the site visually neat and easy to read for users of all ages was also important.
+
+Our secondary and complementary colors consist of shades of orange and yellow. Orange and yellow are both considered warm colors and therefore "evoke warmth due to their brightness and link to the sun. In general, they convey optimism, enthusiasm, and passion."[^4] This was extremely important to counteract the blue tones, which can be also be linked with sadness and depression. Orange is also a color representative of encouragement and hope. We chose the orange tones carefully as too bright an orange would incorrectly convey youthfulness and energy and should therefore be avoided for serious branding.[^4]
+
+We included the yellow to act as a highlight color for important information on the site as "yellow is a cautionary color used in life vests, police cordoning tape, and hazardous areas."[^4] As it "is the most visible color from a distance (which is why it’s used for street signs)"[^4], it was logical to incorporate this color into our design scheme for the original intended purpose: to direct user attention.
+
+Overall, these colors allow the users to focus on the information provided and use the user interface as a tool, rather than drowning the site in vibrant or extraneous colors further distracting the user from the intended information. 
+
 #### 6. Project Management
 The kanban project management style will be followed to structure the implementation of each step in undertaking this project. This style has been chosen because it will enable our team to visualise what tasks need to be undertaken, what is underway, what individual team members need to review, and what has been completed. Being able to see what has been done can help to foster a sense of accomplishment and provide motivation to keep going. And. by dividing tasks up into very small snippets that can be completed in a few hours, the list of remaining tasks does not seem so daunting and thus can allow team members to remain motivated and inspired. 
 
@@ -207,4 +252,24 @@ Our trello board can be found here: https://trello.com/b/7NMGHoN7/full-stack-app
 
 #### Sources Used: 
 [^1]: Henderson, M., Henderson, P. and Kiernan, C. (2000). Missing Persons: Incidence, Issues and Impacts. [online] Available at: https://www.aic.gov.au/sites/default/files/2020-05/tandi144.pdf.
+
+
+[^2]: paletton.com. (n.d.). Paletton - The Color Scheme Designer. [online] Available at: https://paletton.com/#uid=43w0n0kJTrhn3OgmWBjUJdkVy5B [Accessed 3 Jul. 2023].
+
+
+
+[^3]: Interaction Design Foundation (n.d.). What is Color Theory? [online] The Interaction Design Foundation. Available at: https://www.interaction-design.org/literature/topics/color-theory#:~:text=Color%20theory%20is%20the%20collection.
+
+
+
+[^4]: Gross, R. (2019). Color meaning and symbolism: How to use the power of color in your branding. [online] Learn. Available at: https://www.canva.com/learn/color-meanings-symbolism/.
+
+
+[^5]: U.S. Web Design System (USWDS). (2023). Typography. [online] Available at: https://designsystem.digital.gov/components/typography/#included-typefaces-2 [Accessed 4 Jul. 2023].
+
+
+[^6]: Eye on Design. (2019). The U.S. Government’s Public Sans Is a Typeface Fit for Civic Duty. [online] Available at: https://eyeondesign.aiga.org/the-u-s-governments-public-sans-is-a-typeface-fit-for-civic-duty/ [Accessed 4 Jul. 2023].
+
+
+[^7]: GitHub. (2023). Public Sans. [online] Available at: https://github.com/uswds/public-sans [Accessed 4 Jul. 2023].
 

@@ -145,10 +145,14 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 ---
 ## Design & Project Flow
 
-### 4. User Stories
+### 4. User Stories and Personas
 ![Betty persona](./docs/betty-persona.png)
 
 ![Peter persona](./docs/peter-persona.png)
+
+![Michael persona](./docs/michael-persona.png)
+
+![Julia persona](./docs/julia-persona.png)
 
 
 

@@ -152,7 +152,7 @@ Login page:
 ![login page wireframes](./docs/login-page.png)
 
 Hamburger Menu for mobile nav only:
-![login page wireframes](./docs/hamburger-mobile.png)
+![hamburger menu wireframe](./docs/hamburger-mobile.png)
 
 Dashboard:
 ![dashboard wireframes](./docs/dashboard-mobile.png)

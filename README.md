@@ -154,7 +154,9 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 
 ![Julia persona](./docs/julia-persona.png)
 
+![Steve persona](./docs/steve-persona.png)
 
+![Megan persona](./docs/megan-persona.png)
 
 ### 5. Design Processes & Wireframing
 

@@ -145,85 +145,130 @@ In designing this site, careful consideration was given to the various user type
 
 Figma, an industry standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](https://www.figma.com/file/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=162-2072&mode=design&t=RsEU8JRCJn1tqZyX-0). 
 
-Homepage:
-![homepage wireframes](./docs/homepage-all.png)
+- Homepage:
+    >
+    ![homepage wireframes](./docs/homepage-all.png)
 
-Login page:
-![login page wireframes](./docs/login-page.png)
+- Login page:
+    >
+    ![login page wireframes](./docs/login-page.png)
 
-Hamburger Menu for mobile nav only:
-![hamburger menu wireframe](./docs/hamburger-mobile.png)
+- Hamburger Menu for Mobile Nav Only:
+    >
+    ![hamburger menu wireframe](./docs/hamburger-mobile.png)
 
-Dashboard:
-![dashboard wireframes](./docs/dashboard-mobile.png)
-![dashboard wireframes](./docs/dashboard-desktop.png)
-![dashboard wireframes](./docs/dashboard-all.png)
+- Dashboard (mobile, desktop, both):
+    >
+    ![dashboard wireframes](./docs/dashboard-mobile.png)
+    >
+    ![dashboard wireframes](./docs/dashboard-desktop.png)
+    >
+    ![dashboard wireframes](./docs/dashboard-all.png)
 
 Prototypes are also useful in the planning stages of a website as they allow the developer to visualize the flow of actions a user may take when interacting with rendered elements. To view the interactive version of these prototypes, click here for the [desktop version](https://www.figma.com/proto/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=30-1357&t=RsEU8JRCJn1tqZyX-0&scaling=scale-down&page-id=19%3A818&starting-point-node-id=30%3A1357&show-proto-sidebar=1) and here for the [mobile version](https://www.figma.com/proto/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=45-1568&t=RsEU8JRCJn1tqZyX-0&scaling=scale-down&page-id=45%3A1567&starting-point-node-id=45%3A1568).
 
 Visual representation of prototypes for both desktop and mobile below -
-Mobile representation:
-![mobile prototype](./docs/mobile-prototype.png)
 
-Desktop representation:
-![desktop prototype](./docs/desktop-prototype.png)
+- Mobile prototype representation:
+    >
+    ![mobile prototype](./docs/mobile-prototype.png)
+>
+- Desktop prototype representation:
+    >
+    ![desktop prototype](./docs/desktop-prototype.png)
+>
+Mobile Device Prototypes:
+>
+- Homepage
+    >
+    ![mobile home prototype](./docs/mobile-home-proto.png)
+>
+- Hamburger menu
+    >
+    ![mobile hamburger menu prototype](./docs/mobile-ham-proto.png)
+>
+- Login page
+    >
+    ![mobile login prototype](./docs/mobile-login-proto.png)
+>
+- Signup page
+    >
+    ![mobile signup prototype](./docs/mobile-signup-proto.png)
+>
+- Dashboard 
+    >
+    ![mobile dashboard prototype](./docs/mobile-dash-proto.png)
+>
+Desktop Device Prototypes:
+>
+- Homepage
+    >
+    ![desktop home prototype](./docs/desktop-home-proto.png)
 
-Mobile:
-![mobile home prototype](./docs/mobile-home-proto.png)
-![mobile hamburger menu prototype](./docs/mobile-ham-proto.png)
-![mobile login prototype](./docs/mobile-login-proto.png)
-![mobile signup prototype](./docs/mobile-signup-proto.png)
-![mobile dashboard prototype](./docs/mobile-dash-proto.png)
+- Report a Missing Person (login) page
+    >
+    ![desktop login prototype](./docs/desktop-login-proto.png)
 
-Desktop:
-![desktop home prototype](./docs/desktop-home-proto.png)
-![desktop login prototype](./docs/desktop-login-proto.png)
-![desktop dashboard prototype](./docs/desktop-dash-proto.png)
+- Dashboard 
+    >
+    ![desktop dashboard prototype](./docs/desktop-dash-proto.png)
 
 ##### Other Design Processes
-Fontface:
+- Font(s):
+    >
+    Based on the determined users - police, general public of all ages, admin - choosing an appropriate fontface and overall style for enhanced readability was a priority. The information we are hosting on this site is important and urgent in nature, so delivering it in a direct and clear manner is paramount.
+    >
+    "[Official] websites need clear and consistent headings, highly legible body paragraphs, clear labels, and easy-to-use input fields."[^5] 
+    >
+    Public Sans: 
+    The chosen body font. 
+    Headers will be emphasized using appropriate font weight.
+    >
+    ![publicsans](./docs/public-sans.png)[^7]
+    >
+    Public Sans is a font used widely by the U.S. Government across their official sites and was actually designed by the United States Web Design System - it is well known for its "plain, straightforward style, [and is] appropriate for interfaces and running text. Its large x-height makes it legible at small sizes."[^5] 
+    >
+    The smaller font sizes have greater letter spacing which makes it highly suitable for running and body text as the letters are further apart, thus making it easier to read at small sizes.[^5] 
+    >
+    This typeface "is meant to be neutral, legible, and consistent like a system font"[^6] and the "conventional angled vertices result in a sharper, stronger form."[^7]
+    >
+    ![font overlay](./docs/font-comparison.png)[^7]
+    >
+    With Roboto being too tall and stiff and SF Pro Text having too much character spacing as shown in the above overlay, Public Sans is the perfect combination of curvature, height, and character space, which achieves excellent readability and maintains a neutral form.
+>
+- Color Scheme:
+    >
+    When choosing colors for a website or application, it's important to determine your target audience and overall message you want to convey. Since this site is related to important and often urgent information, the goal was to evoke a sense of professionalism, officiality, and trustworthiness, a sense of hope for those searching, as well as a sense of urgency and priority for certain info.
+    >
+    Based on extensive research about color theory, the chosen colors for the site are below:
+    >
+    ![color swatches](./docs/color-swatches.png)[^2]
+    >
+    with an example site incorporating these colors:
 
-Based on the determined users - police, general public of all ages, admin - choosing an appropriate fontface and overall style for enhanced readability was a priority. The information we are hosting on this site is important and urgent in nature, so delivering it in a direct and clear manner is paramount.
-
-"[Official] websites need clear and consistent headings, highly legible body paragraphs, clear labels, and easy-to-use input fields."[^5] 
-
-Public Sans: The chosen body font. Headers will be emphasized using appropriate font weight.
-
-![publicsans](./docs/public-sans.png)[^7]
-
-Public Sans is a font used widely by the U.S. Government across their official sites and was actually designed by the United States Web Design System - it is well known for its "plain, straightforward style, [and is] appropriate for interfaces and running text. Its large x-height makes it legible at small sizes."[^5] The smaller font sizes have greater letter spacing which makes it highly suitable for running and body text as the letters are further apart, thus making it easier to read at small sizes.[^5] 
-
-This typeface "is meant to be neutral, legible, and consistent like a system font"[^6] and the "conventional angled vertices result in a sharper, stronger form."[^7]
-
-![font overlay](./docs/font-comparison.png)[^7]
-
-With Roboto being too tall and stiff and SF Pro Text having too much character spacing, Public Sans is the perfect combination which achieves excellent readability and maintains a neutral form.
-
-Color Scheme:
-
-When choosing colors for a website or application, it's important to determine your target audience and overall message you want to convey. Since this site is related to important and often urgent information, the goal was to evoke a sense of professionalism, officiality, and trustworthiness, a sense of hope for those searching, as well as a sense of urgency and priority for certain info.
-
-Based on extensive research about color theory, the chosen colors for the site are below:
-
-![color swatches](./docs/color-swatches.png)[^2]
-
-with an example site using these colors:
-
-![mocksite with colors](./docs/site-colors.png)[^2]
-
-We chose a triadic design with an added complementary color. "Triadic [designs] take three colors which are equally distant on the color wheel (i.e., 120° apart: e.g., red/blue/yellow). These colors may not be vibrant, but the scheme can be as it maintains harmony and high contrast. It’s easier to make visually appealing designs with this than with a complementary scheme."[^3] 
-
-![triadic colors](./docs/triadic-colors.png)[^2]
-
-With the content of our site relating to sensitive information, it was important to appropriately reflect our design goals whilst also evoking a "positive psychological impact on users"[^3].
-
-We chose shades of blue as our primary color, as the main design goal of the site was to bring about a sense of professionalism, officiality, and trustworthiness. "Blue is a favorite color for companies that wish to convey reliability, trustworthiness, and communication (think Facebook, Twitter, and Samsung) and for expressing the authority of organizations like the police."[^4] Considering that the police are part of the intended users, it made sense to choose this as the primary color. Keeping the site visually neat and easy to read for users of all ages was also important.
-
-Our secondary and complementary colors consist of shades of orange and yellow. Orange and yellow are both considered warm colors and therefore "evoke warmth due to their brightness and link to the sun. In general, they convey optimism, enthusiasm, and passion."[^4] This was extremely important to counteract the blue tones, which can be also be linked with sadness and depression. Orange is also a color representative of encouragement and hope. We chose the orange tones carefully as too bright an orange would incorrectly convey youthfulness and energy and should therefore be avoided for serious branding.[^4]
-
-We included the yellow to act as a highlight color for important information on the site as "yellow is a cautionary color used in life vests, police cordoning tape, and hazardous areas."[^4] As it "is the most visible color from a distance (which is why it’s used for street signs)"[^4], it was logical to incorporate this color into our design scheme for the original intended purpose: to direct user attention.
-
-Overall, these colors allow the users to focus on the information provided and use the user interface as a tool, rather than drowning the site in vibrant or extraneous colors further distracting the user from the intended information. 
+    ![mocksite with colors](./docs/site-colors.png)[^2]
+    >
+    We chose a triadic design with an added complementary color. "Triadic [designs] take three colors which are equally distant on the color wheel (i.e., 120° apart: e.g., red/blue/yellow). These colors may not be vibrant, but the scheme can be as it maintains harmony and high contrast. It’s easier to make visually appealing designs with this than with a complementary scheme."[^3] 
+    >
+    ![triadic colors](./docs/triadic-colors.png)[^2]
+    >
+    With the content of our site relating to sensitive information, it was important to appropriately reflect our design goals whilst also evoking a "positive psychological impact on users"[^3].
+    >
+    We chose shades of blue as our primary color, as the main design goal of the site was to bring about a sense of professionalism, officiality, and trustworthiness. 
+    >
+    "Blue is a favorite color for companies that wish to convey reliability, trustworthiness, and communication (think Facebook, Twitter, and Samsung) and for expressing the authority of organizations like the police."[^4] Considering that the police are part of the intended users, it made sense to choose this as the primary color. Keeping the site visually neat and easy to read for users of all ages was also important.
+    >
+    Our secondary and complementary colors consist of shades of orange and yellow. 
+    >
+    Orange and yellow are both considered warm colors and therefore "evoke warmth due to their brightness and link to the sun. In general, they convey optimism, enthusiasm, and passion."[^4] This was extremely important to counteract the blue tones, which can be also be linked with sadness and depression. 
+    >
+    Orange is also a color representative of encouragement and hope. We chose the orange tones carefully as too bright an orange would incorrectly convey youthfulness and energy and should therefore be avoided for serious branding.[^4]
+    >
+    We included the yellow to act as a highlight color for important information on the site as "yellow is a cautionary color used in life vests, police cordoning tape, and hazardous areas."[^4] 
+    >
+    As it "is the most visible color from a distance (which is why it’s used for street signs)"[^4], it was logical to incorporate this color into our design scheme for the original intended purpose: to direct user attention.
+    >
+    Overall, these colors allow the users to focus on the information provided and use the user interface as a tool, rather than drowning the site in vibrant or extraneous colors further distracting the user from the intended information. 
 
 #### 6. Project Management
 The kanban project management style will be followed to structure the implementation of each step in undertaking this project. This style has been chosen because it will enable our team to visualise what tasks need to be undertaken, what is underway, what individual team members need to review, and what has been completed. Being able to see what has been done can help to foster a sense of accomplishment and provide motivation to keep going. And. by dividing tasks up into very small snippets that can be completed in a few hours, the list of remaining tasks does not seem so daunting and thus can allow team members to remain motivated and inspired. 

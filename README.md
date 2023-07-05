@@ -238,7 +238,7 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
     - As a logged-in police u
 
 
-### 5. Design Processes & Wireframing
+#### 5. Design Processes & Wireframing
 
 ### 6. Project Management
 The kanban project management style will be followed to structure the implementation of each step in undertaking this project. This style has been chosen because it will enable our team to visualise what tasks need to be undertaken, what is underway, what individual team members need to review, and what has been completed. Being able to see what has been done can help to foster a sense of accomplishment and provide motivation to keep going. And. by dividing tasks up into very small snippets that can be completed in a few hours, the list of remaining tasks does not seem so daunting and thus can allow team members to remain motivated and inspired. 
@@ -268,4 +268,24 @@ Our trello board can be found here: https://trello.com/b/7NMGHoN7/full-stack-app
 
 #### Sources Used: 
 [^1]: Henderson, M., Henderson, P. and Kiernan, C. (2000). Missing Persons: Incidence, Issues and Impacts. [online] Available at: https://www.aic.gov.au/sites/default/files/2020-05/tandi144.pdf.
+
+
+[^2]: paletton.com. (n.d.). Paletton - The Color Scheme Designer. [online] Available at: https://paletton.com/#uid=43w0n0kJTrhn3OgmWBjUJdkVy5B [Accessed 3 Jul. 2023].
+
+
+
+[^3]: Interaction Design Foundation (n.d.). What is Color Theory? [online] The Interaction Design Foundation. Available at: https://www.interaction-design.org/literature/topics/color-theory#:~:text=Color%20theory%20is%20the%20collection.
+
+
+
+[^4]: Gross, R. (2019). Color meaning and symbolism: How to use the power of color in your branding. [online] Learn. Available at: https://www.canva.com/learn/color-meanings-symbolism/.
+
+
+[^5]: U.S. Web Design System (USWDS). (2023). Typography. [online] Available at: https://designsystem.digital.gov/components/typography/#included-typefaces-2 [Accessed 4 Jul. 2023].
+
+
+[^6]: Eye on Design. (2019). The U.S. Government’s Public Sans Is a Typeface Fit for Civic Duty. [online] Available at: https://eyeondesign.aiga.org/the-u-s-governments-public-sans-is-a-typeface-fit-for-civic-duty/ [Accessed 4 Jul. 2023].
+
+
+[^7]: GitHub. (2023). Public Sans. [online] Available at: https://github.com/uswds/public-sans [Accessed 4 Jul. 2023].
 

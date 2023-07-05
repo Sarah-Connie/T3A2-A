@@ -210,10 +210,14 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
 >
 - Betty, Public User:
     >
-    - As Betty, I want to view a list of missing persons so that I can see if any have also been on the news.
-    - As a Betty, I want to view a list of missing persons so that I can see if I know anyone directly.
-    - As Betty, I want to search for a missing person so that I can provide information if I know of any.
-    - As Betty, I want to share a missing person to my social media platform so that I can share information to my elderly friends who may be related.
+    - As Betty, I want to view a list of missing persons so that I can see if any have been on the special news reports.
+        - As Betty, I want to view a list of missing persons in my own time so that I can see if any have been on the special news reports that come on after I go to sleep.
+    - As Betty, I want to view a list of missing persons so that I can easily see if I know anyone directly.
+    - As Betty, I want to view a list of missing persons with big facial photos so I can easily read and understand.
+    - As Betty, I want to search for a specific missing person so that I can provide useful information if I do know of them.
+    - As Betty, I want to share a missing person to my social media so that I can share information to my elderly friends who may have knowledge.
+        - As Betty, I want to share a missing person to my social media so that I can share information about any elderly friends who go missing for age-related reasons.
+    - As Betty, I want to be able to use my desktop to look for missing persons because I do not own a mobile phone.
 >
 - Generic User (any user not of the admin/police type, and also logged in):
     >

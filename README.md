@@ -207,7 +207,31 @@ After understanding the general needs of the intended users, in order to gain be
 >
 #### Stage 3 - Refined User Stories
 Upon reviewing and getting familiar with the personas of the intended users, we were able to further fine tune the user stories. This AGILE process allowed us to focus on the purpose of our site, rather than create useless features that a user wouldn't need.
-
+>
+- Betty, Public User:
+    >
+    - As Betty, I want to view a list of missing persons so that I can see if any have also been on the news.
+    - As a Betty, I want to view a list of missing persons so that I can see if I know anyone directly.
+    - As Betty, I want to search for a missing person so that I can provide information if I know of any.
+    - As Betty, I want to share a missing person to my social media platform so that I can share information to my elderly friends who may be related.
+>
+- Generic User (any user not of the admin/police type, and also logged in):
+    >
+    - As a generic user, I want to be able to see all the reports I've made.
+    - As a generic user, I want to be able to update my account details so that if my email changes, I will not lose my account.
+    - As a generic user, I want to lodge new missing person reports so that I can be more vigilant and help my community.
+>
+- Logged-in Admin:
+    >
+    - As a logged-in admin user, I want to see a list of all users.
+    - As a logged-in admin user, I want to see how many missing person reports are filed.
+    - As a logged-in admin user, I want to view all the police stations are using the site.
+>
+- Logged-in Police:
+    >
+    - As a logged-in police user, I want to change my station details.
+    - As a logged-in police user, I want to update the details of a currently logged case made by a generic user.
+    - As a logged-in police u
 
 
 ### 5. Design Processes & Wireframing

@@ -164,17 +164,17 @@ The preliminary user stories are as follows:
     - As a logged-in generic user, I want to be able to update my account details.
     - As a logged-in generic user, I want to lodge new missing person reports.
 >
-- Logged-in Admin:
-    >
-    - As a logged-in admin user, I want to see a list of all users.
-    - As a logged-in admin user, I want to see how many missing person reports are filed.
-    - As a logged-in admin user, I want to view all the police stations are using the site.
->
 - Logged-in Police:
     >
     - As a logged-in police user, I want to change my station details.
     - As a logged-in police user, I want to update the details of a currently logged case made by a generic user.
     - As a logged-in police user, I want to add a new missing person report.
+>
+- Logged-in Admin:
+    >
+    - As a logged-in admin user, I want to see a list of all users.
+    - As a logged-in admin user, I want to see how many missing person reports are filed.
+    - As a logged-in admin user, I want to view all the police stations are using the site.
 
 #### Stage 2 - User Personas
 After understanding the general needs of the intended users, in order to gain better insight on these users' needs, we created user personas. These personas are representative of the intended users of the site, and allows us to understand, as developers, what their needs are in the creation of features to be included in the site.
@@ -219,26 +219,54 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
         - As Betty, I want to share a missing person to my social media so that I can share information about any elderly friends who go missing for age-related reasons.
     - As Betty, I want to be able to use my desktop to look for missing persons because I do not own a mobile phone.
 >
-- Generic User (any user not of the admin/police type, and also logged in):
+- Peter, Generic User (any user not of the admin/police type, and also logged in):
     >
-    - As a generic user, I want to be able to see all the reports I've made.
-    - As a generic user, I want to be able to update my account details so that if my email changes, I will not lose my account.
-    - As a generic user, I want to lodge new missing person reports so that I can be more vigilant and help my community.
+    - As Peter, I want to use a website that pools information for me so that I can stop using multiple sites to find information.
+    - As Peter, I want to be able to lodge a new missing report so that I can keep track of new uncovered cases from my internet sleuthing.
+        - As Peter, I want to lodge new missing person reports so that I can be keep track of new uncovered Australian cases whilst internet sleuthing.
+    - As Peter, I want to see a list of all my active reports so that I can play my part in maintaining the site with current information.
+    - As Peter, I want to use a missing persons website so that I can browse/log on anytime that works with my schedule and still see current data.
 >
-- Logged-in Admin:
+- Michael, Police User (logged-in):
     >
-    - As a logged-in admin user, I want to see a list of all users.
-    - As a logged-in admin user, I want to see how many missing person reports are filed.
-    - As a logged-in admin user, I want to view all the police stations are using the site.
+    - As Michael, I want to change my station details so that if I get stationed elsewhere, I won't lose my account. 
+        - As Michael, I want to change my station details so that if I get stationed elsewhere, I can keep my account active and still be a valued member of the missing persons site.
+    - As Michael, I want to update the details of a currently logged case made by a generic user so that case details can remain current.
+        As Michael, I want to update the details of a currently logged case made by a generic user so that families and helpful civilians can work with the most current and reliable information.
+    - As Michael, I want to add a new missing person report so that others can help in the search.
+        - As Michael, I want to add a new missing person report to reach a greater audience more quickly because I do not have enough time to do a press conference for every missing person.
+    - As Michael, I want to delete a missing person report so that families can recieve peace and closure once a case is closed.
 >
-- Logged-in Police:
+- Julia, Generic User (any user not of the admin/police type, and also logged in):
     >
-    - As a logged-in police user, I want to change my station details.
-    - As a logged-in police user, I want to update the details of a currently logged case made by a generic user.
-    - As a logged-in police u
+    - As Julia, I want to be update a missing person report so that people can help me find my missing daughter.
+    - As Julia, I want to be able to share my missing person report on my social media so that other people can view reliable and organized information.
+        - As Julia, I want to be able to share my missing person report on my social media so that other people can view reliable and organized information and continue to share it easily on their profiles too.
+    - As Julia, I want to lodge new missing person reports so that can raise awareness for other peoples' missing children.
+    - As Julia, I want to be able to find relevant resources on the site so that I can get mental health support.
+        - As Julia, I want to be able to find relevant resources on the site so that I can get mental health support without feeling like I am not doing enough to help find my daughter.
+>
+- Steve, Public User:
+    >
+    - As Steve, I want to view a list of missing persons by locality so that I can bring more awareness to them during my news reports.
+    - As Steve, I want to search a list of missing persons by different fields so that I can bring more awareness to the prevalence of missing children (example).
+    - As Steve, I want to search for a missing person so that I can follow up leads if that person is not a high profile case.
+        - As Steve, I want to search for a missing person so that I can get more public information including last whereabouts etc and use this to speak to the local community. 
+    - As Steve, I want to share a missing person to my social media platform. 
+        - As Steve, I want to share a missing person to my social media platform to reach my social media followers and bring attention to a particular case.
+        - As Steve, I want to share a missing person to my social media platform because my generation does not watch the news often. 
+>
+- Megan, Admin User (logged-in):
+    >
+    - As Megan, I want to see a list of all users so that I can keep track of the usage of the site.
+        - As Megan, I want to see a list of all users so that I can see if the site is growing in popularity and gaining traction, or if the site needs to be altered.
+    - As Megan, I want to see how many missing person reports are filed so that I can see how much of the database is being used.
+    - As Megan, I want to view all the police stations are using the site so that I can reach out to any if required.
+       - As Megan, I want to view all the police stations are using the site so that I can reach out to any about case detail change logs if required.
+    - As Megan, I want to delete a user because they are reporting erroneous missing persons.
+        - As Megan, I want to delete a user because they are reporting erroneous missing persons and discrediting the site by doing so.
 
-
-#### 5. Design Processes & Wireframing
+### 5. Design Processes & Wireframing
 
 ### 6. Project Management
 The kanban project management style will be followed to structure the implementation of each step in undertaking this project. This style has been chosen because it will enable our team to visualise what tasks need to be undertaken, what is underway, what individual team members need to review, and what has been completed. Being able to see what has been done can help to foster a sense of accomplishment and provide motivation to keep going. And. by dividing tasks up into very small snippets that can be completed in a few hours, the list of remaining tasks does not seem so daunting and thus can allow team members to remain motivated and inspired. 

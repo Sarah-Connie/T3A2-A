@@ -146,17 +146,69 @@ An ERD is attached for the purpose of visualising the database schema/models tha
 ## Design & Project Flow
 
 ### 4. User Stories and Personas
-![Betty persona](./docs/betty-persona.png)
+#### Stage 1 - Preliminary Users and Stories
+>
+In developing our site, it was apparent based off the intended functionality that there would be four types of users: public users (any user not logged-in), generic user (a user not of the other types who's logged in), admin, and police users. Any of these types of users can still interact with the site without being logged in, however a logged in user provides added functionality, with police and admin sharing the same levels of accessibility to the stored records of missing persons. Logged-in admin users have the ability and authorization to access records of all reports and all users (including police).
 
-![Peter persona](./docs/peter-persona.png)
+The preliminary user stories are as follows:
 
-![Michael persona](./docs/michael-persona.png)
+- Public User:
+    >
+    - As a public user, I want to view a list of missing persons.
+    - As a public user, I want to search for a missing person.
+    - As a public user, I want to share a missing person to a social media platform.
+>
+- Generic User (any user not of the admin/police type, and also logged in):
+    >
+    - As a logged-in generic user, I want to be able to see all the reports I've made.
+    - As a logged-in generic user, I want to be able to update my account details.
+    - As a logged-in generic user, I want to lodge new missing person reports.
+>
+- Logged-in Admin:
+    >
+    - As a logged-in admin user, I want to see a list of all users.
+    - As a logged-in admin user, I want to see how many missing person reports are filed.
+    - As a logged-in admin user, I want to view all the police stations are using the site.
+>
+- Logged-in Police:
+    >
+    - As a logged-in police user, I want to change my station details.
+    - As a logged-in police user, I want to update the details of a currently logged case made by a generic user.
+    - As a logged-in police user, I want to add a new missing person report.
 
-![Julia persona](./docs/julia-persona.png)
+#### Stage 2 - User Personas
+After understanding the general needs of the intended users, in order to gain better insight on these users' needs, we created user personas. These personas are representative of the intended users of the site, and allows us to understand, as developers, what their needs are in the creation of features to be included in the site.
 
-![Steve persona](./docs/steve-persona.png)
+** Public users are generic users not logged-in; generic users are logged-in users that are also not police or admin.
 
-![Megan persona](./docs/megan-persona.png)
+- Betty is considered a public user.
+    >
+    ![Betty persona](./docs/betty-persona.png)
+>
+- Peter is considered a generic user (logged-in).
+    >
+    ![Peter persona](./docs/peter-persona.png)
+>
+- Michael is considered a police user (logged-in).
+    >
+    ![Michael persona](./docs/michael-persona.png)
+>
+- Julia is considered a generic user (logged-in).
+    >
+    ![Julia persona](./docs/julia-persona.png)
+>
+- Steve is considered a public user.
+    >
+    ![Steve persona](./docs/steve-persona.png)
+>
+- Megan is considered an administrative user (logged-in).
+    >
+    ![Megan persona](./docs/megan-persona.png)
+>
+#### Stage 3 - Refined User Stories
+Upon reviewing and getting familiar with the personas of the intended users, we were able to further fine tune the user stories. This AGILE process allowed us to focus on the purpose of our site, rather than create useless features that a user wouldn't need.
+
+
 
 ### 5. Design Processes & Wireframing
 

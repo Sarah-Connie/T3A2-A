@@ -208,7 +208,7 @@ After understanding the general needs of the intended users, in order to gain be
 #### Stage 3 - Refined User Stories
 Upon reviewing and getting familiar with the personas of the intended users, we were able to further fine tune the user stories. This AGILE process allowed us to focus on the purpose of our site, rather than create useless features that a user wouldn't need.
 >
-- Betty, Public User:
+- ##### Betty, Public User:
     >
     - As Betty, I want to view a list of missing persons so that I can see if any have been on the special news reports.
         - As Betty, I want to view a list of missing persons in my own time so that I can see if any have been on the special news reports that come on after I go to sleep.
@@ -218,16 +218,30 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
     - As Betty, I want to share a missing person to my social media so that I can share information to my elderly friends who may have knowledge.
         - As Betty, I want to share a missing person to my social media so that I can share information about any elderly friends who go missing for age-related reasons.
     - As Betty, I want to be able to use my desktop to look for missing persons because I do not own a mobile phone.
+    >
+    ##### Acceptance criteria:
+    - Large facial images and easy-to-read text for elderly users
+    - Easy to navigate layout (list) of missing persons
+    - Ability to clearly search for a missing person using relevant search parameters (location, gender, age, etc)
+    - A special feature/button that allows for simple sharing of info to external social media platform(s)
+    - Appropriate rendering of content and full visibility of site on a desktop (no cutting off of any information)
 >
-- Peter, Generic User (any user not of the admin/police type, and also logged in):
+- ##### Peter, Generic User (any user not of the admin/police type, and also logged in):
     >
     - As Peter, I want to use a website that pools information for me so that I can stop using multiple sites to find information.
     - As Peter, I want to be able to lodge a new missing report so that I can keep track of new uncovered cases from my internet sleuthing.
         - As Peter, I want to lodge new missing person reports so that I can be keep track of new uncovered Australian cases whilst internet sleuthing.
     - As Peter, I want to see a list of all my active reports so that I can play my part in maintaining the site with current information.
     - As Peter, I want to use a missing persons website so that I can browse/log on anytime that works with my schedule and still see current data.
+    >
+    ##### Acceptance criteria:
+    - User friendly interface that allows for information to be displayed in a clear but efficient way
+    - Incorporate a form for user to fill in and create a new missing persons report
+    - Create a portal/dashboard for user account to allow users to view logged reports attributed to their account
+    - Create a login form to allow users to enter details and access their dashboard
+    - Ensure website and user portal is accessible and fully functional at all times for user convenience
 >
-- Michael, Police User (logged-in):
+- ##### Michael, Police User (logged-in):
     >
     - As Michael, I want to change my station details so that if I get stationed elsewhere, I won't lose my account. 
         - As Michael, I want to change my station details so that if I get stationed elsewhere, I can keep my account active and still be a valued member of the missing persons site.
@@ -236,17 +250,33 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
     - As Michael, I want to add a new missing person report so that others can help in the search.
         - As Michael, I want to add a new missing person report to reach a greater audience more quickly because I do not have enough time to do a press conference for every missing person.
     - As Michael, I want to delete a missing person report so that families can recieve peace and closure once a case is closed.
->
-- Julia, Generic User (any user not of the admin/police type, and also logged in):
     >
-    - As Julia, I want to be update a missing person report so that people can help me find my missing daughter.
+    ##### Acceptance criteria:
+    - Create a login form to allow police to enter details and access their dashboard/portal
+    - Include search option within dashboard for police to query the data
+    - Ability to search current cases from a generic user and modify details
+    - Create a form to add a new missing person to the database
+    - Include a button to completely remove a missing person from the database
+>
+- ##### Julia, Generic User (any user not of the admin/police type, and also logged in):
+    >
+    - As Julia, I want to be able to create an account as I have been recently affected by a missing person.
+        - As Julia, I want to be able to create a new account so I can share that my daughter has recently gone missing.
+    - As Julia, I want to be create a new missing person report for my daughter so that people can help me find her.
     - As Julia, I want to be able to share my missing person report on my social media so that other people can view reliable and organized information.
         - As Julia, I want to be able to share my missing person report on my social media so that other people can view reliable and organized information and continue to share it easily on their profiles too.
     - As Julia, I want to lodge new missing person reports so that can raise awareness for other peoples' missing children.
     - As Julia, I want to be able to find relevant resources on the site so that I can get mental health support.
         - As Julia, I want to be able to find relevant resources on the site so that I can get mental health support without feeling like I am not doing enough to help find my daughter.
+    >
+    ##### Acceptance criteria:
+    - Create a signup form for new users to enter details and become a member of the database
+    - Create a form accessible from the dashboard, for logged-in users to create a new report
+    - Incorporate a special feature so anyone can directly share report information to an external social media platform
+    - Ability to view from the dashboard all reports logged to user account in order to keep track of currently active reports
+    - Clearly display resource options such as counselling, emergency hotlines, tip hotlines, etc.
 >
-- Steve, Public User:
+- ##### Steve, Public User:
     >
     - As Steve, I want to view a list of missing persons by locality so that I can bring more awareness to them during my news reports.
     - As Steve, I want to search a list of missing persons by different fields so that I can bring more awareness to the prevalence of missing children (example).
@@ -255,8 +285,14 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
     - As Steve, I want to share a missing person to my social media platform. 
         - As Steve, I want to share a missing person to my social media platform to reach my social media followers and bring attention to a particular case.
         - As Steve, I want to share a missing person to my social media platform because my generation does not watch the news often. 
+    >
+    ##### Acceptance criteria:
+    - Include a search bar that allows users to specify accepted search parameters
+    - Dynamically display data as per user search in a clear manner
+    - Include a search bar that allow users to search by name and return single data
+    - Incorporate a special feature so anyone can directly share clear and reputable report information to an external social media platform
 >
-- Megan, Admin User (logged-in):
+- ##### Megan, Admin User (logged-in):
     >
     - As Megan, I want to see a list of all users so that I can keep track of the usage of the site.
         - As Megan, I want to see a list of all users so that I can see if the site is growing in popularity and gaining traction, or if the site needs to be altered.
@@ -265,6 +301,12 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
        - As Megan, I want to view all the police stations are using the site so that I can reach out to any about case detail change logs if required.
     - As Megan, I want to delete a user because they are reporting erroneous missing persons.
         - As Megan, I want to delete a user because they are reporting erroneous missing persons and discrediting the site by doing so.
+    >
+    ##### Acceptance criteria:
+    - Create a login form to access a user dashboard/portal
+    - Allow ability for admin users to access all current user data and display in a clear manner
+    - Include search option within dashboard for admin to query the data
+    - Include a button within the dashboard to delete any user if required
 
 ### 5. Design Processes & Wireframing
 

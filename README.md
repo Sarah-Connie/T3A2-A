@@ -224,7 +224,7 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
     ##### Acceptance criteria:
     - Large facial images and easy-to-read text for elderly users
     - Easy to navigate layout (list) of missing persons
-    - Ability to clearly search for a missing person using relevant search parameters (location, gender, age, etc)
+    - Ability to clearly search for a missing person using relevant search parameters (location, gender, age, etc) from the homepage without a login or signup requirement
     - A special feature/button that allows for simple sharing of info to external social media platform(s)
     - Appropriate rendering of content and full visibility of site on a desktop (no cutting off of any information)
 >
@@ -247,9 +247,8 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
 - ##### Michael, Police User (logged-in):
     >
     - As Michael, I want to change my station's details so that the station account details stay current and all police officers at my station can use the site. 
-        - As Michael, I want to change my station details so that if I get stationed elsewhere, I can keep my account active and still be a valued member of the missing persons site.
     - As Michael, I want to update the details of a currently logged case made by a general user so that case details can remain current.
-        As Michael, I want to update the details of a currently logged case made by a general user so that families and helpful civilians can work with the most current and reliable information.
+        - As Michael, I want to update the details of a currently logged case made by a general user so that families and helpful civilians can work with the most current and reliable information.
     - As Michael, I want to add a new missing person report so that others can help in the search.
         - As Michael, I want to add a new missing person report to reach a greater audience more quickly because I do not have enough time to do a press conference for every missing person.
     - As Michael, I want to delete a missing person report so that families can recieve peace and closure once a case is closed.

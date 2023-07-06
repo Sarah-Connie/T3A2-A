@@ -312,7 +312,7 @@ Upon reviewing and getting familiar with the personas of the intended users, we 
 
 ### 5. Design Processes & Wireframing
 
-##### Figma Wireframes
+#### Figma Wireframes
 In designing this site, careful consideration was given to the various user types the application would cater to as well as determining the best way to incorporate the minimum viable product (MVP) features that would contribute to core functionality. These wireframes were created in effort to plan for the overall layout and user flow of the site across different electronic devices keeping mobile-first viewing and design in mind.
 
 Figma, an industry standard software, was used to aid the creation of these wireframes which you can view in higher resolution [here](https://www.figma.com/file/wMKxyusVxR7e4V9zPe1JHL/Hope-Hunters-Wireframes?type=design&node-id=162-2072&mode=design&t=RsEU8JRCJn1tqZyX-0). 
@@ -385,7 +385,7 @@ Desktop Device Prototypes:
     >
     ![desktop dashboard prototype](./docs/desktop-dash-proto.png)
 
-##### Other Design Processes
+#### Other Design Processes
 - Font(s):
     >
     Based on the determined users - police, general public of all ages, admin - choosing an appropriate fontface and overall style for enhanced readability was a priority. The information we are hosting on this site is important and urgent in nature, so delivering it in a direct and clear manner is paramount.

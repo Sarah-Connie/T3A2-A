@@ -300,13 +300,13 @@ Our trello board can be found here: https://trello.com/b/7NMGHoN7/full-stack-app
 ![Trello board progress 30/06/2023](./docs/trello/trello-screenshot1.png)
 ![Trello board progress 03/07/2023](./docs/trello/trello-screenshot2.png)
 ![Trello board progress 05/07/2023](./docs/trello/trello-screenshot3.png)
+![Trello board progress 06/07/2023](./docs/trello/trello-screenshot4.png)
 <br>
 <i>Trello Board Card Examples</i>
 
 ![Trello board card example format readme.md](./docs/trello/trello-card-example1.png)
 ![Trello board card example AAD](./docs/trello/trello-card-example2.png)
 ![Trello board card example User Stories](./docs/trello/trello-card-example3.png)
-
 
 #### Sources Used: 
 [^1]: Henderson, M., Henderson, P. and Kiernan, C. (2000). Missing Persons: Incidence, Issues and Impacts. [online] Available at: https://www.aic.gov.au/sites/default/files/2020-05/tandi144.pdf.

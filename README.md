@@ -56,6 +56,8 @@ The goal of the Hope Hunters website means that any member of the public will be
 - Option for a user to reset their password if they have forgotten it.
 - Retrieve 30 listings at a time from the database for the continuous page. Only once they’ve been viewed, get the new 30, etc.
 - Store missing persons images directly to database instead of a url to an image hosted on, for example, Photobucket. 
+- Functionality for user's to contact an Admin.
+- Admin Dashboard to enable logged in admin level users to view a list of all users, see a total number of missing person reports (maybe add this in on the homepage for all users to see) and view total number of police stations with an account.
 
 #### Target Audience
 The target audience for this site, as briefly explained above, is the general public. With police busy with major crimes across different sectors and far too many annual missing person cases being filed, this site aims to enlist the assistance and knowledge of the general public.

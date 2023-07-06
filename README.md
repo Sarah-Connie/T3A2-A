@@ -1,5 +1,7 @@
-# T3A2-A - Full Stack App (Part A)
-## Sarah Landis & Connie Jacques Present Hope Hunters: A Missing Persons Aggregate Site
+## T3A2-A - Full Stack App (Part A)
+### Sarah Landis & Connie Jacques 
+
+# Hope Hunters: A Missing Persons Aggregate Site
 ---
 ## Documentation
 
